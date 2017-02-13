@@ -11,3 +11,10 @@ Friday, Feb. 10
 Assignment: Finish the [Python Syntax](https://www.codecademy.com/learn/python) lesson (don't worry about the tip calculator unless you want to). The question you should submit the answer to is the one titled "Bringing it all together."
 
 **Due**: Monday, Feb. 13
+
+Monday, Feb. 13
+---------------
+
+Assignment: Finish the first lesson from [Strings and Console Output](https://www.codecademy.com/courses/python-beginner-sRXwR/0/4) and [List and Dictionaries](https://www.codecademy.com/courses/python-beginner-en-pwmb1/). Submit the final answer from each into the form.
+
+**Due**: Wednesday, Feb. 15
