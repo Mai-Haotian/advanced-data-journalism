@@ -25,3 +25,10 @@ Wednesday, Feb. 15
 Assignment: Finish the first lesson from [Conditionals and Control Flow](https://www.codecademy.com/courses/python-beginner-BxUFN/) and [Loops](https://www.codecademy.com/courses/python-beginner-en-cxMGf/). Submit the final answer from each into the form.
 
 **Due**: Friday, Feb. 17
+
+Wednesday, Feb. 22
+---------------
+
+Assignment: Finish the first lesson from [Functions](https://www.codecademy.com/courses/python-beginner-c7VZg) and [Introduction to Classes](https://www.codecademy.com/courses/python-intermediate-en-WL8e4). Submit the final answer from each into the form.
+
+**Due**: Friday, Feb. 24
