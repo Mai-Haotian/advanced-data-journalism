@@ -13,10 +13,14 @@ soup = BeautifulSoup(html, "html.parser")
 targeting_attributes = {'class': 'accidentOutput'}
 accident_table = soup.find('table', targeting_attributes)
 
-# # Grab the rows from the table, represented as a list
+# Grab the rows from the table, represented as a list
 row_list = accident_table.find_all('tr')
 
-# # Loop over the rows and print them one at a time
+# Loop over each of the rows
 for row in row_list:
+
+    # Grab the cells that contain the data from each row
     cells = row.find_all('td')
+
+    # Print the output as a list
     print [cell.text for cell in cells]
