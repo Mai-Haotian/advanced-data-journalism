@@ -1,11 +1,20 @@
-import urllib2
+import urllib2, csv
 from bs4 import BeautifulSoup
+
+########## CSV SETUP ##########
+
+output_file = open('accidents.csv', 'w')
+writer = csv.writer(output_file)
+
+########## GET PAGE FROM INTERNET ##########
 
 # The site we're scraping. This is represented as a string.
 url = 'https://www.mshp.dps.missouri.gov/HP68/search.jsp'
 
 # Now we're going to use a tool called urllib2 to retrieve the HTML for the site
 html = urllib2.urlopen(url).read()
+
+########## START SCRAPING WEBSITE ##########
 
 soup = BeautifulSoup(html, "html.parser")
 
@@ -19,8 +28,10 @@ row_list = accident_table.find_all('tr')
 # Loop over each of the rows
 for row in row_list:
 
-    # Grab the cells that contain the data from each row
-    cells = row.find_all('td')
+    cell_list = row.find_all('td')
 
-    # Print the output as a list
-    print [cell.text for cell in cells]
+    data = [cell.text for cell in cell_list]
+
+    writer.writerow(data)
+
+
