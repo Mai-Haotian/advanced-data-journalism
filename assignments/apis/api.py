@@ -7,7 +7,7 @@
 ######################
 
 # This is a working API key for the ProPublica Congress API. Don't change it.
-API_KEY = 'dlVho0nPVh5S8nOUEaNI07PRAcDSagZH2yvl34Wn'
+API_KEY = 'OylOqGPorg2UjpgDMgoGnVtRBKDhcNn7q6XF0rVb'
 
 def get_votes_by_date(chamber, start_date, end_date):
     '''
